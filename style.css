@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body {
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #FFFFFF;
+
+}
+header {
+    padding: 4%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #F9F9F9;
+}
+
+#website-logo span {
+    vertical-align: middle;
+    padding-left: 10px;
+    font-size: 24px;
+    color: #F27059;
+}
+#website-logo img{
+    width: 53px;
+    height: 53px;
+    vertical-align: middle;
+}
+
+#come-soon span{
+    font-size: 16px;
+    vertical-align: middle;
+    line-height: 54px;
+}
+
+/*hero img*/
+#head-wrapper {
+    padding: 1% 0 4% 4%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F9F9F9;
+
+}
+
+h1 {
+    font-size: 4em;
+    line-height: 1em;
+    font-weight: 600;
+   
+}
+
+h2{
+    font-size: 4em;
+    font-weight: 400;
+    
+}
+
+h3{
+    font-size: 4em;
+    font-weight: 400;
+    color: #F27059
+    
+}
+h4{
+    font-size: 24px;
+    font-weight: 800;
+    text-align: center;
+    margin: 4% 0;
+}
+
+
+
+#features{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%
+}
+.feature-img{
+    text-align: center;
+    margin: 0 4%;
+    padding: 2%;
+    width: 140px;
+}
+.feature-img:hover{
+    background-color: #FDF1E5;
+}
+
+#team-members {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.team-img {
+    text-align: center;
+    margin: 2%;
+
+}
+
+@media only screen and (max-width:720px){
+    #features{
+        flex-wrap: wrap;
+    }
+    h1{
+        font-size: 3em;
+        line-height: 1.5em;
+    }
+    h2{
+        font-size: 2.75em;
+        line-height: 1.5em;
+    }
+    h3{
+        font-size: 2.5em;
+    }
+    #right-img{
+        display: none;
+    }
+}
+
+#subscribe{
+    width: 600px;
+    margin:20% auto;
+}
+
+input{
+    height: 2em;
+    width:350px;
+    margin: 2em 0;
+    padding-left: 1em;
+}
+button{
+    height: 2em;
+    width:108px;
+    margin: 0 1em;
+    background-color: #F27059;
+    color: white;
+    border: 0;
+    border-radius: 3px;
+}
+
+footer{
+    width: 100%;
+    text-align: center;
+    padding-top:2em;
+    padding-bottom: 1em;
+}
+a {
+    color:#F27059;
+}
