@@ -116,13 +116,17 @@ h4{
     #right-img{
         display: none;
     }
+    #email{
+        display: block !important;
+    }
 }
 
 #subscribe{
-    width: 600px;
-    margin:20% auto;
+    margin:20% 0;
 }
-
+#email{
+    display: inline-block;
+}
 input{
     height: 2em;
     width:350px;
